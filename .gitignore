@@ -1,0 +1,49 @@
+# Build directories
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+
+# Generated files
+*.pc
+*.in
+config.h
+vpmi18n.h
+tagfile-keys.h
+tagfile-keys.cc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test artifacts
+test/integration/tmp/
+.pytest_cache/
+*.gcda
+*.gcno
+
+# Binary outputs
+bin/
+lib/
+
+# Debian packaging
+debian/.debhelper/
+debian/tmp/
+*.deb
+*.dsc
+*.changes
+
+# Temporary files
+*.tar.gz
+*.tar.bz2
+*.zip
